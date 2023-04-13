@@ -1,11 +1,12 @@
 # J.A.R.V.I.S Voice Assistant
 
-J.A.R.V.I.S (Just A Rather Very Intelligent System) is a voice assistant project that utilizes the Google Cloud Speech-to-Text and Text-to-Speech APIs along with OpenAI's GPT-4 for generating code based on voice input. The application is built using Python and Tkinter for the graphical user interface.
+J.A.R.V.I.S (Just A Rather Very Intelligent System) is a voice assistant project that utilizes the Google Cloud Speech-to-Text and Text-to-Speech APIs along with OpenAI's GPT-3 for generating code and any other questions asked based on voice input. The application is built using Python and Tkinter for the graphical user interface.
 
 ## Features
 - Transcribes voice input using the Google Cloud Speech-to-Text API
 - Synthesizes voice responses using the Google Cloud Text-to-Speech API
-- Generates code using OpenAI's GPT-4 engine based on voice input
+- Generates a reponse based on your question(ex..Essays, general inforamation...)
+- Generates code using OpenAI's GPT-3 engine based on voice input
 - Saves the generated code to a file with the appropriate file extension
 
 ## Installation
