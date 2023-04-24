@@ -10,7 +10,7 @@ from google.cloud import texttospeech_v1 as texttospeech
 import openai
 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\omers\\Documents\\J.A.R.V.I.S Voice Assistant\\voice-assistant-383519-4302cea2f4d7.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "YOUR_GOOGLE_CREDENTIALS"
 
 speech_client = speech.SpeechClient()
 
