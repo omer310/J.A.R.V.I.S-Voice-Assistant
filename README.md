@@ -8,6 +8,7 @@ J.A.R.V.I.S (Just A Rather Very Intelligent System) is a voice assistant project
 - Generates a reponse based on your question(ex..Essays, general inforamation...)
 - Generates code using OpenAI's GPT-3 engine based on voice input
 - Saves the generated code to a file with the appropriate file extension
+- More features comeing soon.................
 
 ## Installation
 
