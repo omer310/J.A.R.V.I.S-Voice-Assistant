@@ -1,14 +1,14 @@
 # J.A.R.V.I.S Voice Assistant
 
-J.A.R.V.I.S (Just A Rather Very Intelligent System) is a voice assistant project that utilizes the Google Cloud Speech-to-Text and Text-to-Speech APIs along with OpenAI's GPT-3 for generating code and any other questions asked based on voice input. The application is built using Python and Tkinter for the graphical user interface.
+J.A.R.V.I.S (Just A Rather Very Intelligent System) is a voice assistant project that utilizes the Google Cloud Speech-to-Text and Text-to-Speech APIs along with OpenAI's GPT-3.5(Soon to use GPT 4)for generating code and any other questions asked based on voice input. The application is built using Python and Tkinter for the graphical user interface.
 
 ## Features
 - Transcribes voice input using the Google Cloud Speech-to-Text API
 - Synthesizes voice responses using the Google Cloud Text-to-Speech API
-- Generates a reponse based on your question(ex..Essays, general inforamation...)
-- Generates code using OpenAI's GPT-3 engine based on voice input
+- Generates a response based on your question(ex.. general information, Daliy Tasks,genrate code ...)
+- Generates code using OpenAI's GPT-3.5 (Soon to use GPT 4) engine based on voice input
 - Saves the generated code to a file with the appropriate file extension
-- More features comeing soon.................
+- More features coming soon.................
 
 ## Installation
 
@@ -30,7 +30,7 @@ Run the script:
 python jarvis_voice_assistant.py
 ```
 
-A graphical interface will appear. Press the "Speak" button and provide a voice input. J.A.R.V.I.S will transcribe the input, process it, and respond with synthesized voice output. If the input is a code generation request, the generated code will be saved to a file with the appropriate extension.
+A graphical interface will appear. Press the "Speak" button and provide a voice input. J.A.R.V.I.S will transcribe the input, process it, and respond with synthesized voice output. If the input is a code generation request, the generated code will be saved to a file with the appropriate extension. If the input is a question an appropriate answer will be displayed in the interface.
 
 Example request: "Generate Python code to reverse a string"
 
